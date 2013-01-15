@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F148AF9616A6046A00C3CF98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148AF9516A6046A00C3CF98 /* Cocoa.framework */; };
+		F148AFA016A6046A00C3CF98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F148AF9E16A6046A00C3CF98 /* InfoPlist.strings */; };
+		F148AFA216A6046A00C3CF98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F148AFA116A6046A00C3CF98 /* main.m */; };
+		F148AFA616A6046A00C3CF98 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F148AFA416A6046A00C3CF98 /* Credits.rtf */; };
+		F148AFA916A6046A00C3CF98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F148AFA816A6046A00C3CF98 /* AppDelegate.m */; };
+		F148AFAC16A6046A00C3CF98 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F148AFAA16A6046A00C3CF98 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F148AF9116A6046A00C3CF98 /* LaMejorcita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaMejorcita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F148AF9516A6046A00C3CF98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F148AF9816A6046A00C3CF98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F148AF9916A6046A00C3CF98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F148AF9A16A6046A00C3CF98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F148AF9D16A6046A00C3CF98 /* LaMejorcita-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaMejorcita-Info.plist"; sourceTree = "<group>"; };
+		F148AF9F16A6046A00C3CF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F148AFA116A6046A00C3CF98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F148AFA316A6046A00C3CF98 /* LaMejorcita-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaMejorcita-Prefix.pch"; sourceTree = "<group>"; };
+		F148AFA516A6046A00C3CF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F148AFA716A6046A00C3CF98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F148AFA816A6046A00C3CF98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F148AFAB16A6046A00C3CF98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F148AF8E16A6046A00C3CF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148AF9616A6046A00C3CF98 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F148AF8616A6046A00C3CF98 = {
+			isa = PBXGroup;
+			children = (
+				F148AF9B16A6046A00C3CF98 /* LaMejorcita */,
+				F148AF9416A6046A00C3CF98 /* Frameworks */,
+				F148AF9216A6046A00C3CF98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F148AF9216A6046A00C3CF98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F148AF9116A6046A00C3CF98 /* LaMejorcita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F148AF9416A6046A00C3CF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148AF9516A6046A00C3CF98 /* Cocoa.framework */,
+				F148AF9716A6046A00C3CF98 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F148AF9716A6046A00C3CF98 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148AF9816A6046A00C3CF98 /* AppKit.framework */,
+				F148AF9916A6046A00C3CF98 /* CoreData.framework */,
+				F148AF9A16A6046A00C3CF98 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F148AF9B16A6046A00C3CF98 /* LaMejorcita */ = {
+			isa = PBXGroup;
+			children = (
+				F148AFA716A6046A00C3CF98 /* AppDelegate.h */,
+				F148AFA816A6046A00C3CF98 /* AppDelegate.m */,
+				F148AFAA16A6046A00C3CF98 /* MainMenu.xib */,
+				F148AF9C16A6046A00C3CF98 /* Supporting Files */,
+			);
+			path = LaMejorcita;
+			sourceTree = "<group>";
+		};
+		F148AF9C16A6046A00C3CF98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F148AF9D16A6046A00C3CF98 /* LaMejorcita-Info.plist */,
+				F148AF9E16A6046A00C3CF98 /* InfoPlist.strings */,
+				F148AFA116A6046A00C3CF98 /* main.m */,
+				F148AFA316A6046A00C3CF98 /* LaMejorcita-Prefix.pch */,
+				F148AFA416A6046A00C3CF98 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F148AF9016A6046A00C3CF98 /* LaMejorcita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F148AFAF16A6046A00C3CF98 /* Build configuration list for PBXNativeTarget "LaMejorcita" */;
+			buildPhases = (
+				F148AF8D16A6046A00C3CF98 /* Sources */,
+				F148AF8E16A6046A00C3CF98 /* Frameworks */,
+				F148AF8F16A6046A00C3CF98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaMejorcita;
+			productName = LaMejorcita;
+			productReference = F148AF9116A6046A00C3CF98 /* LaMejorcita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F148AF8816A6046A00C3CF98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Vibebrand;
+			};
+			buildConfigurationList = F148AF8B16A6046A00C3CF98 /* Build configuration list for PBXProject "LaMejorcita" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F148AF8616A6046A00C3CF98;
+			productRefGroup = F148AF9216A6046A00C3CF98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F148AF9016A6046A00C3CF98 /* LaMejorcita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F148AF8F16A6046A00C3CF98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148AFA016A6046A00C3CF98 /* InfoPlist.strings in Resources */,
+				F148AFA616A6046A00C3CF98 /* Credits.rtf in Resources */,
+				F148AFAC16A6046A00C3CF98 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F148AF8D16A6046A00C3CF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148AFA216A6046A00C3CF98 /* main.m in Sources */,
+				F148AFA916A6046A00C3CF98 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F148AF9E16A6046A00C3CF98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148AF9F16A6046A00C3CF98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F148AFA416A6046A00C3CF98 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148AFA516A6046A00C3CF98 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F148AFAA16A6046A00C3CF98 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148AFAB16A6046A00C3CF98 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F148AFAD16A6046A00C3CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F148AFAE16A6046A00C3CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F148AFB016A6046A00C3CF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaMejorcita/LaMejorcita-Prefix.pch";
+				INFOPLIST_FILE = "LaMejorcita/LaMejorcita-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F148AFB116A6046A00C3CF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LaMejorcita/LaMejorcita-Prefix.pch";
+				INFOPLIST_FILE = "LaMejorcita/LaMejorcita-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F148AF8B16A6046A00C3CF98 /* Build configuration list for PBXProject "LaMejorcita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148AFAD16A6046A00C3CF98 /* Debug */,
+				F148AFAE16A6046A00C3CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F148AFAF16A6046A00C3CF98 /* Build configuration list for PBXNativeTarget "LaMejorcita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148AFB016A6046A00C3CF98 /* Debug */,
+				F148AFB116A6046A00C3CF98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F148AF8816A6046A00C3CF98 /* Project object */;
+}
